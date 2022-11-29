@@ -1,5 +1,5 @@
 # PDFRedactionAnnotation in C#
-The [Syncfusion .NET PDF library](https://www.syncfusion.com/document-processing/pdf-framework/net) allows removing the sensitive text and images from the PDF document using its PDF Redaction feature. This repository contains various examples to use the PDF redaction annotation
+The [Syncfusion .NET PDF library](https://www.syncfusion.com/document-processing/pdf-framework/net) allows removing the sensitive text and images from the PDF document using its PDF Redaction feature. This repository contains various examples to use the PDF redaction annotation.
 
 Sample name | Description
 --- | ---
