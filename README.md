@@ -1,13 +1,13 @@
-# PDFRedactionAnnotation in C#
-The [Syncfusion .NET PDF library](https://www.syncfusion.com/document-processing/pdf-framework/net) allows removing the sensitive text and images from the PDF document using its PDF Redaction feature. This repository contains various examples to use the PDF redaction annotation.
+# Redaction Annotation using C#
+The [Syncfusion .NET PDF library](https://www.syncfusion.com/document-processing/pdf-framework/net) provides an easy way to permanently remove confidential or sensitive information from PDF documents. This repository contains examples of redaction feature to safely, permanently remove confidential information from a PDF document.
 
 Sample name | Description
 --- | ---
-[ContentRemoval](https://github.com/SyncfusionExamples/pdf-redaction-annotation-csharp/blob/main/.NET%20Framework/ContentRemoval) | Remove the marked content from PDF document.
-[CustomAppearance](https://github.com/SyncfusionExamples/pdf-redaction-annotation-csharp/blob/main/.NET%20Framework/CustomAppearance) |  Customize the appearance of redaction marks using the PdfRedactionAnnotation.
-[FindTextAndRedact](https://github.com/SyncfusionExamples/pdf-redaction-annotation-csharp/blob/main/.NET%20Framework/FindTextAndRedact) | Find a particular text in a PDF document and mark that text for redaction using PdfRedactionAnnotation. 
-[PDFRedactionAnnotation](https://github.com/SyncfusionExamples/pdf-redaction-annotation-csharp/blob/main/.NET%20Framework/PDFRedactionAnnotation) | Mark the text and image area in the PDF document.
-[WholePageRedaction](https://github.com/SyncfusionExamples/pdf-redaction-annotation-csharp/blob/main/.NET%20Framework/WholePageRedaction) | Mark a whole PDF page for redaction using PdfRedactionAnnotation.
+[Remove content from PDF](https://github.com/SyncfusionExamples/pdf-redaction-annotation-csharp/blob/main/.NET%20Framework/ContentRemoval) | Remove the marked content from PDF document.
+[Custom appearance from PDF](https://github.com/SyncfusionExamples/pdf-redaction-annotation-csharp/blob/main/.NET%20Framework/CustomAppearance) |  Customize the appearance of redaction marks using the PdfRedactionAnnotation class.
+[Find text and redact from PDF](https://github.com/SyncfusionExamples/pdf-redaction-annotation-csharp/blob/main/.NET%20Framework/FindTextAndRedact) | Find a particular text in a PDF document and mark that text for redaction using the PdfRedactionAnnotation class. 
+[Redaction annotation from PDF](https://github.com/SyncfusionExamples/pdf-redaction-annotation-csharp/blob/main/.NET%20Framework/PDFRedactionAnnotation) | Mark the text and image area in the PDF document.
+[Whole page redaction from PDF](https://github.com/SyncfusionExamples/pdf-redaction-annotation-csharp/blob/main/.NET%20Framework/WholePageRedaction) | Mark a whole PDF page for redaction using the PdfRedactionAnnotation class.
 
 # How to run the examples
 * Download this project to a location in your disk. 
