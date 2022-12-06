@@ -1,4 +1,4 @@
-# Redaction Annotation using C#
+# Redact PDF document using C#
 The [Syncfusion .NET PDF library](https://www.syncfusion.com/document-processing/pdf-framework/net) provides an easy way to permanently remove confidential or sensitive information from PDF documents. This repository contains examples of redaction feature to safely, permanently remove confidential information from a PDF document.
 
 Sample name | Description
