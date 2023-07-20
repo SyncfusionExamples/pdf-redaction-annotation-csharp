@@ -33,10 +33,11 @@ namespace FindTextAndRedact
                 //Get matched text collection
                 foreach (MatchedItem textItem in textCollection.Value)
                 {
-                    //Create redaction annotation
+                    //Redact the text
                     PdfRedaction redaction = new PdfRedaction(new RectangleF(textItem.Bounds.X, textItem.Bounds.Y, textItem.Bounds.Width+55, textItem.Bounds.Height));
                     (loadedDocument.Pages[textCollection.Key] as PdfLoadedPage).Redactions.Add(redaction);
                     loadedDocument.Redact();
+                    //Replace the redacted text with new text
                     (loadedDocument.Pages[0] as PdfLoadedPage).Graphics.DrawString("Invoice Number: 2345678989909", new PdfStandardFont(PdfFontFamily.Helvetica, 9), PdfBrushes.Red, new PointF(textItem.Bounds.X, textItem.Bounds.Y));
                 }
 
